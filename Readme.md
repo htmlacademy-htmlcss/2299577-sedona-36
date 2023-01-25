@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/36/user/2299577).
-* Наставник: [Сергей Артемов](https://htmlacademy.ru/profile/id228892)
+* Наставник: [Маргарита Шабельникова](https://htmlacademy.ru/profile/id1974723)
 
 ---
 
