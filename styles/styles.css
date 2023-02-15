@@ -14,13 +14,26 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
     font-family: "PT Sans" sans-serif;
     font-size: 16px;
     line-height: 24px;
     background-color: #F2F2F2;
     color: #000000;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
 }
 
 .page-header {
@@ -30,10 +43,12 @@ body {
 
 .logo-link {
     position: absolute;
-width: 140px;
-height: 70px;
-left: 0;
-top: 0;
+    width: 140px;
+    height: 70px;
+    left: 0;
+    top: 0;
+    display: block;
+    margin: 0 auto;
 }
 
 .navigation-link {
@@ -43,6 +58,23 @@ top: 0;
     text-decoration: none;
     background-color: #ffffff;
     font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    width: 339px;
+}
+
+.navigation-user {
+    width: 268;
+    margin-left: auto;
 }
 
 .main-index {
@@ -75,6 +107,9 @@ top: 0;
 
 .advantages-list{
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
 }
 
 .advantages-item-hell,
@@ -233,4 +268,14 @@ top: 0;
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.footer-social {
+    width: 142px;
+    margin-right: 236px;
+}
+
+.footer-logo {
+    margin-left: auto;
+    width: 114px;
 }
