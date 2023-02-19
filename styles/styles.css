@@ -282,7 +282,10 @@ body {
 }
 
 .container-two {
-
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 960px;
 }
 
 .contacts-phone {
