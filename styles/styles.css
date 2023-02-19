@@ -19,6 +19,8 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     font-family: "PT Sans" sans-serif;
     font-size: 16px;
@@ -26,8 +28,6 @@ body {
     background-color: #F2F2F2;
     color: #000000;
     font-style: normal;
-    display: flex;
-    flex-direction: column;
     min-height: 100%;
 }
 
@@ -42,12 +42,12 @@ body {
 }
 
 .logo-link {
+    display: block;
     position: absolute;
     width: 140px;
     height: 70px;
     left: 0;
     top: 0;
-    display: block;
     margin: 0 auto;
 }
 
@@ -106,10 +106,10 @@ body {
 }
 
 .advantages-list{
+    display: grid;
     list-style: none;
     margin: 0;
     padding: 0;
-    display: grid;
 }
 
 .advantages-item-hell,
@@ -237,10 +237,10 @@ body {
 }
 
 .subscribe {
+    display: flex;
     background-image: url(../icons/mountains.jpg);
     text-align: center;
     background-size: cover;
-    display: flex;
 }
 
 .search-title {
