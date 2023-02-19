@@ -78,7 +78,7 @@ body {
 }
 
 .main-index {
-    background-image: url(icons/mountain.jpg);
+    background-image: url("../images/content/mountain.jpg");
     background-color: #ffffff;
     color: #000000;
     background-size: 100% auto;
@@ -238,7 +238,8 @@ body {
 
 .subscribe {
     display: flex;
-    background-image: url(../icons/mountains.jpg);
+    flex-direction: column;
+    background-image: url("../images/content/mountains.jpg");
     text-align: center;
     background-size: cover;
 }
@@ -281,7 +282,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.container-two {
+.footer-container {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -307,3 +308,5 @@ body {
     margin-left: auto;
     width: 114px;
 }
+
+/* гит это боль */
