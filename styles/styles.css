@@ -73,7 +73,7 @@ body {
 }
 
 .navigation-user {
-    width: 268;
+    width: 268px;
     margin-left: auto;
 }
 
@@ -180,6 +180,14 @@ body {
     text-transform: uppercase;
 }
 
+.infrastructure-list {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
 .infrastructure-lead-two {
     font-family: 'PT Sans';
     font-weight: 400;
@@ -223,6 +231,18 @@ body {
     color: #333333;
 }
 
+.search {
+    flex-direction: column;
+    text-align: center;
+}
+
+.subscribe {
+    background-image: url(../icons/mountains.jpg);
+    text-align: center;
+    background-size: cover;
+    display: flex;
+}
+
 .search-title {
     font-family: 'PT Sans';
     font-weight: 700;
@@ -246,6 +266,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-transform: uppercase;
     align-items: center;
     padding: 8px 50px;
     gap: 10px;
@@ -258,6 +279,10 @@ body {
     font-size: 14px;
     font-weight: 400;
     background-color: #FFFFFF;
+}
+
+.container-two {
+
 }
 
 .contacts-phone {
