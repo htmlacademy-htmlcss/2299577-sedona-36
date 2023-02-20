@@ -43,7 +43,6 @@ body {
 
 .logo-link {
     display: block;
-    position: absolute;
     width: 140px;
     height: 70px;
     left: 0;
@@ -78,10 +77,19 @@ body {
 }
 
 .main-index {
-    background-image: url(icons/mountain.jpg);
     background-color: #ffffff;
     color: #000000;
     background-size: 100% auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/content/mountain.jpg");
+    margin-top: 51px;
+    margin-bottom: 82px;
+    margin-left: 371px;
+    margin-right: 371px;
 }
 
 .infrastructure-title-title {
@@ -238,7 +246,8 @@ body {
 
 .subscribe {
     display: flex;
-    background-image: url(../icons/mountains.jpg);
+    flex-direction: column;
+    background-image: url("../images/content/mountains.jpg");
     text-align: center;
     background-size: cover;
 }
@@ -281,7 +290,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.container-two {
+.footer-container {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -307,3 +316,5 @@ body {
     margin-left: auto;
     width: 114px;
 }
+
+/* гит это боль */
